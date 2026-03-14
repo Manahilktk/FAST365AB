@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact - Fast365AB</title>
+
+<link rel="stylesheet" href="contact.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<section class="contact-page">
+
+<div class="contact-container">
+
+<div class="contact-form">
+
+<h1>Contact</h1>
+<form id="contactForm" action="https://formspree.io/f/mzdjgezp" method="POST">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+    
+    <input type="email" name="email" placeholder="Your Email" required>
+    
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    
+    <button type="submit">Send Message</button>
+    
+    </form>
+    
+    </div>
+<!-- SUCCESS POPUP -->
+
+<div class="popup" id="successPopup">
+
+    <div class="popup-card">
+    
+    <div class="tick">✓</div>
+    
+    <h3>Thank You!</h3>
+    
+    <p>Our team will contact you soon.</p>
+    
+    <button onclick="closePopup()">Close</button>
+    
+    </div>
+    
+    </div>    
+
+<section class="map-section">
+
+    <div class="address-card">
+    📍 Gatbergsvagen, Skellefteå, Sweden
+    </div>
+    
+    <div class="map-container">
+    
+    <iframe
+    src="https://maps.google.com/maps?q=Gatbergsvagen%20Skelleftea%20Sweden&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    loading="lazy">
+    </iframe>
+    
+    </div>
+    
+    </section>
+
+
+<div class="contact-info">
+
+<div class="info-box">
+
+<h3>Get in touch with us!<br>Let's talk!</h3>
+
+</div>
+
+<div class="info-item">
+<span>📧</span>
+<p> fast365ab@gmail.com</p>
+</div>
+
+<div class="info-item">
+<span>📞</span>
+<p>0734849548</p>
+</div>
+
+<div class="info-item">
+<span>📍</span>
+<p> Gatbergsvagen, Skellefteå, Sweden </p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<div class="footer-container">
+
+<div>
+<h3>Fast365AB</h3>
+<p>Your Sustainable Partner</p>
+</div>
+
+<div class="footer-links">
+
+<h4>Useful Links</h4>
+
+<a href="#">Home</a>
+<a href="#">Services</a>
+<a href="#">Contact</a>
+
+</div>
+
+<form id="subscribeForm" class="subscribe-form">
+
+    <input 
+    type="email" 
+    id="subscriberEmail" 
+    placeholder="Your email address" 
+    required
+    >
+    
+    <button type="submit">Get Started</button>
+    
+    </form>
+    
+    <p id="subscribeMsg" class="subscribe-msg">
+    Thanks for subscribing!
+    </p>
+
+</div>
+
+</div>
+
+<p class="copyright">
+© 2026 Fast365AB. All rights reserved.
+</p>
+
+</footer>
+
+</body>
+</html>
